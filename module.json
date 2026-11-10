@@ -1,7 +1,7 @@
 {
-    "id": "module-template",
-    "title": "Module Template",
-    "description": "A template for creating Foundry VTT modules.",
+    "id": "foundry-dnd5e-custom-subtype",
+    "title": "Corlanth Custom Feature Types",
+    "description": "Adds custom class feature subtypes to the D&D 5e system.",
     "version": "#{VERSION}#",
     "compatibility": {
         "minimum": "14",
@@ -18,5 +18,16 @@
     ],
     "url": "#{URL}#",
     "manifest": "#{MANIFEST}#",
-    "download": "#{DOWNLOAD}#"
+    "download": "#{DOWNLOAD}#",
+    "flags": {
+        "dnd5e": {
+            "spellLists": [
+                "Compendium.world.world-of-corlanth.JournalEntry.lrWa7xdVU5Lj83r8.JournalEntryPage.Bco193c8va4H6v1v",
+                "Compendium.world.world-of-corlanth.JournalEntry.lrWa7xdVU5Lj83r8.JournalEntryPage.E0gm4cRITBEyLVDV",
+                "Compendium.world.world-of-corlanth.JournalEntry.lrWa7xdVU5Lj83r8.JournalEntryPage.MEx6H679mLYtPZYs",
+                "Compendium.world.world-of-corlanth.JournalEntry.lrWa7xdVU5Lj83r8.JournalEntryPage.vl8523gZqJkrHWRB",
+                "Compendium.world.world-of-corlanth.JournalEntry.lrWa7xdVU5Lj83r8.JournalEntryPage.2C29QtCYGAC5aXhl"
+            ]
+        }
+    }
 }

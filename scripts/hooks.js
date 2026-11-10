@@ -1,7 +1,10 @@
-const MODULE_ID = "module-template";
+const MODULE_ID = "foundry-dnd5e-custom-subtype";
 
 Hooks.once("init", () => {
-    console.log(`${MODULE_ID} | init`);
+    Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, {
+        cheapTrick: "Cheap Trick (Corlanth)",
+        marshalTechnique: "Martial Technique (Corlanth)",
+    });
 });
 
 Hooks.on("ready", () => {
